@@ -1,3 +1,5 @@
+You can view this project on https://rishabranjan.github.io/rock-paper-scissors/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
