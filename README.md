@@ -1,70 +1,30 @@
-You can view this project on https://rishabranjan.github.io/rock-paper-scissors/
+# Rock Paper Scissors — The Hand Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A polished, responsive take on the classic game. Choose a hand, play against the
+house, and keep your match history and all-time record between visits.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Best of 3, 5, and 10, plus unlimited play
+- Match scoreboard, winning streak, draw count, and recent-round history
+- Persistent scores and all-time win/loss/draw statistics
+- Keyboard shortcuts: **R** for Rock, **P** for Paper, **S** for Scissors
+- Optional synthesized sound effects and dark/light themes
+- Reduced-motion support and keyboard-accessible controls
 
-### `npm start`
+## Getting started
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Use Node.js 20.x, then install dependencies and start the development server:
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+```sh
+npm install
+npm start
+```
 
-### `npm test`
+## Scripts
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `npm test` — run the game logic and UI tests
+- `npm run build` — create a production build
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Progress is saved in this browser using local storage. Use **Reset game** to
+clear the current score and recent rounds; your all-time record remains saved.
