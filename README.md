@@ -1,4 +1,4 @@
-# Rock Paper Scissors — The Hand Game
+# Rock Paper Scissors — The Hand Game - https://rishabranjan.github.io/rock-paper-scissors/
 
 A polished, responsive take on the classic game. Choose a hand, play against the
 house, and keep your match history and all-time record between visits.
