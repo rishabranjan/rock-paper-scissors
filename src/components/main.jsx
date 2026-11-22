@@ -1,5 +1,8 @@
 import React, { useCallback, useEffect, useReducer, useRef, useState } from 'react';
 import '../App.css';
+import rockImage from '../assets/rock.png';
+import paperImage from '../assets/paper.png';
+import scissorsImage from '../assets/scissor.png';
 import {
   CHOICES,
   GAME_MODES,
@@ -15,6 +18,12 @@ const CHOICE_LABELS = {
   rock: 'Rock',
   paper: 'Paper',
   scissors: 'Scissors',
+};
+
+const CHOICE_IMAGES = {
+  rock: rockImage,
+  paper: paperImage,
+  scissors: scissorsImage,
 };
 
 function loadSavedGame() {
@@ -45,7 +54,7 @@ function ChoiceCard({ choice, selected, disabled, onSelect }) {
     >
       <span className="choice-card__image">
         <img
-          src={`${process.env.PUBLIC_URL}/images/${choice === 'scissors' ? 'scissor' : choice}.png`}
+          src={CHOICE_IMAGES[choice]}
           alt=""
           aria-hidden="true"
         />
@@ -88,7 +97,7 @@ function RoundFace({ choice, hidden = false, side }) {
   return (
     <div className={`round-face round-face--${side}`}>
       <img
-        src={`${process.env.PUBLIC_URL}/images/${choice === 'scissors' ? 'scissor' : choice}.png`}
+        src={CHOICE_IMAGES[choice]}
         alt={CHOICE_LABELS[choice]}
       />
     </div>
