@@ -2,7 +2,7 @@
   "name": "rock-paper-scissors",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rishabranjan.github.io/rock-paper-scissors",
+  "homepage": ".",
   "engines": {
     "node": "20.x"
   },
