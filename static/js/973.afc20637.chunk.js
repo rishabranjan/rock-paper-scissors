@@ -1,0 +1,3 @@
+/*! For license information please see 973.afc20637.chunk.js.LICENSE.txt */
+"use strict";(globalThis.webpackChunkrock_paper_scissors||=[]).push([[973],{111(e,r,s){s.r(r);s(532);var n=s(944),o=s(579);const t=function(){return(0,o.jsx)("div",{className:"App",children:(0,o.jsx)(n.A,{})})};s.d(r,["default",0,t])},799(e,r){var s=Symbol.for("react.transitional.element"),n=Symbol.for("react.fragment");function o(e,r,n){var o=null;if(void 0!==n&&(o=""+n),void 0!==r.key&&(o=""+r.key),"key"in r)for(var t in n={},r)"key"!==t&&(n[t]=r[t]);else n=r;return r=n.ref,{$$typeof:s,type:e,key:o,ref:void 0!==r?r:null,props:n}}r.Fragment=n,r.jsx=o,r.jsxs=o},579(e,r,s){e.exports=s(799)}}]);
+//# sourceMappingURL=973.afc20637.chunk.js.map
